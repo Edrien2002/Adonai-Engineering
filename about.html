@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us — Adonai Engineering</title>
+    <meta name="description" content="Adonai Engineering is a Ugandan dealer in construction and architectural materials, delivering surveying, design, plumbing and electrical works.">
+    <link rel="icon" href="images/logo-mark.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="site-header">
+        <nav class="nav">
+            <a href="index.html" class="brand">
+                <img src="images/logo-mark.png" alt="Adonai Engineering logo">
+                <span class="brand-text"><strong>Adonai Engineering Services</strong><span>Construction &amp; Surveying</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" aria-current="page">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ================= PAGE BANNER ================= -->
+    <section class="page-banner blueprint">
+        <div class="container">
+            <!----
+            <div class="dim-rule"><span>About Adonai Engineering</span></div>-->
+            <h1>Built on precision, run on trust.</h1>
+            <p class="lead">We started as a materials dealer and grew into a full delivery partner because clients kept asking us to see the job through past the delivery note.</p>
+        </div>
+    </section>
+
+    <!-- ================= STORY ================= -->
+    <section>
+        <div class="container">
+            <div class="split">
+                <div class="reveal">
+                   
+                    <h2 style="margin-bottom:18px; font-size:1.9rem;">One dealer, then one contractor, now one project partner</h2>
+                    <p style="color:var(--ink-soft); margin-bottom:16px;">Adonai Engineering Services began by supplying construction and architectural materials to builders and homeowners around Uganda. Being on-site so often, the same question kept coming up: could we also handle the design, the surveying,
+                        or the trades instead of the client coordinating five separate contractors themselves?</p>
+                    <p style="color:var(--ink-soft); margin-bottom:16px;">That's the business we built. Today a client can bring us a plot and a rough idea, and leave with a surveyed site, an architectural drawing, sourced materials and a building crew that includes plumbing and electrical, coordinated as
+                        one job instead of five invoices.</p>
+                    <p style="color:var(--ink-soft);">We keep the team small enough that the person who scoped your project is the person who checks in on it at site.</p>
+                </div>
+                <div class="photo-frame blueprint reveal" style="display:flex; align-items:center; justify-content:center;">
+                    <img src="images/10.jpeg" alt="Adonai Engineering team on site" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;" onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
+                    <div hidden style="color:var(--lime-400); font-family:var(--font-mono); font-size:12px; text-align:center; padding:20px; letter-spacing:0.06em;">
+
+                    </div>
+                    <!--<span class="photo-tag">Adonai Engineering</span>-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= MISSION / VALUES ================= -->
+    <section style="background:var(--paper-dim);">
+        <div class="container">
+            <!----
+            <div class="dim-rule"><span>What guides the work</span></div>-->
+            <div class="section-head">
+                <h2>Mission &amp; values</h2>
+                <p>Four things we hold every job to, whether it's a single-room fit-out or a full plaza.</p>
+            </div>
+            <div class="card-grid">
+                <div class="value-card reveal">
+                    <h3>Measure before you build</h3>
+                    <p>Every job starts with a proper survey and a real drawing. We don't estimate what we can measure.</p>
+                </div>
+                <div class="value-card reveal">
+                    <h3>One point of contact</h3>
+                    <p>You deal with one project lead, even when four trades are on site the same week.</p>
+                </div>
+                <div class="value-card reveal">
+                    <h3>Materials you can trust</h3>
+                    <p>We supply what we'd use on our own site — sourced directly, not resold sight unseen.</p>
+                </div>
+                <div class="value-card reveal">
+                    <h3>Show up, follow through</h3>
+                    <p>A schedule is only useful if we keep it. We'd rather tell you about a delay early than explain it late.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= TEAM ================= -->
+    <!--<section>
+    <div class="container">
+        <div class="dim-rule"><span>Who you'll work with</span></div>
+        <div class="section-head">
+            <h2>A team across the disciplines you need</h2>
+            <p>Add real names and headshots here as your team grows — the layout is ready.</p>
+        </div>
+        <div class="team-grid">
+            <div class="team-card reveal">
+                <div class="team-photo">Project Lead</div>
+                <h4>Site &amp; Project Management</h4>
+                <span>Coordinates every trade on site</span>
+            </div>
+            <div class="team-card reveal">
+                <div class="team-photo">Architect</div>
+                <h4>Architectural Design</h4>
+                <span>Concept through working drawings</span>
+            </div>
+            <div class="team-card reveal">
+                <div class="team-photo">Surveyor</div>
+                <h4>Land &amp; Quantity Surveying</h4>
+                <span>Boundaries, topography, take-offs</span>
+            </div>
+            <div class="team-card reveal">
+                <div class="team-photo">Technicians</div>
+                <h4>Plumbing &amp; Electrical</h4>
+                <span>Installation to code, signed off</span>
+            </div>
+        </div>
+    </div>
+    </section>-->
+
+    <!-- ================= CTA ================= -->
+    <section class="section-tight">
+        <div class="container">
+            <div class="cta-band">
+                <div>
+                    <h3>Want to see how we build?</h3>
+                    <p>Walk through completed jobs across construction, design and surveying.</p>
+                </div>
+                <a href="projects.html" class="btn btn-primary">View our projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="images/logo-mark.png" alt="Adonai Engineering logo">
+                    <p>Dealers in construction &amp; architectural materials, surveying, design, plumbing and electrical works, delivered as one project.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.tiktok.com/@mukalazi148?_r=1&_t=ZS-9APeQ86d8cP" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/adonai_engineering?psln=amt0YXB2a3R2MTI0" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/1DyAzKLe6d/" target ="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Site</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Construction materials</li>
+                        <li>Architectural design</li>
+                        <li>Land &amp; quantity surveying</li>
+                        <li>Plumbing &amp; electrical</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Talk to us</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Kampala, Uganda</li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+256702599141">+256 702599141</a></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+256782450714">+256 782450714</a></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+256745649703">+256 745649703</a></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+256751502806">+256 751502806</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:adonaiengineeringco@gmail.com">adonaiengineeringco@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© <span id="year"></span> Adonai Engineering Services. All rights reserved.</span>
+                <!--<span>Site plan drawn in Kampala, Uganda</span>-->
+            </div>
+        </div>
+    </footer>
+
+    <script src="about.js"></script>
+</body>
+
+</html>

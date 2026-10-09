@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects — Adonai Engineering</title>
+    <meta name="description" content="Browse construction, architectural, interior, surveying, plumbing and electrical projects delivered by Adonai Engineering across Uganda.">
+    <link rel="icon" href="images/logo-mark.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="projects.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="site-header">
+        <nav class="nav">
+            <a href="index.html" class="brand">
+                <img src="images/logo-mark.png" alt="Adonai Engineering logo">
+                <span class="brand-text"><strong>Adonai Engineering Services</strong><span>Construction &amp; Surveying</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" aria-current="page">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ================= PAGE BANNER ================= -->
+    <section class="page-banner blueprint">
+        <div class="container">
+
+            <h1>Work we've carried from plan to handover.</h1>
+            <p class="lead">Filter by discipline, then tap a project to see more photos and details.</p>
+        </div>
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+    <section>
+        <div class="container">
+            <div class="filter-bar" id="filterBar">
+                <button class="filter-btn active" data-filter="All">All projects</button>
+                <button class="filter-btn" data-filter="Construction">Construction</button>
+                <button class="filter-btn" data-filter="Architectural">Architectural</button>
+                <button class="filter-btn" data-filter="Interior & Exterior">Interior &amp; Exterior</button>
+                <button class="filter-btn" data-filter="Surveying">Surveying</button>
+                <button class="filter-btn" data-filter="Electrical & Plumbing">Electrical Installation</button>
+                <button class="filter-btn" data-filter="Materials Supply">Materials Supply</button>
+                <button class="filter-btn" data-filter="Plumbing Works">Plumbing Works</button>
+            </div>
+
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Cards are rendered here from projects.js -->
+            </div>
+
+            <p class="empty-state" id="emptyState">No projects in this category yet. please check back soon.</p>
+        </div>
+    </section>
+
+
+
+    <!-- ================= CTA ================= -->
+    <section class="section-tight">
+        <div class="container">
+            <div class="cta-band">
+                <div>
+                    <h3>Planning something similar?</h3>
+                    <p>Send us a few details and we'll scope it against a project like these.</p>
+                </div>
+                <a href="contact.html" class="btn btn-primary">Start a conversation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="images/logo-mark.png" alt="Adonai Engineering logo">
+                    <p>Dealers in construction &amp; architectural materials, surveying, design, plumbing and electrical works, delivered as one project.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.tiktok.com/@mukalazi148?_r=1&_t=ZS-9APeQ86d8cP" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/adonai_engineering?psln=amt0YXB2a3R2MTI0" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/1DyAzKLe6d/" target ="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Site</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Construction materials</li>
+                        <li>Architectural design</li>
+                        <li>Land &amp; quantity surveying</li>
+                        <li>Plumbing &amp; electrical</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Talk to us</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Kampala, Uganda</li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+256702599141">+256 702599141</a></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+256782450714">+256 782450714</a></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+256745649703">+256 745649703</a></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+256751502806">+256 751502806</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:adonaiengineeringco@gmail.com">adonaiengineeringco@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© <span id="year"></span> Adonai Engineering Services. All rights reserved.</span>
+                <!----<span>Site plan drawn in Kampala, Uganda</span>-->
+            </div>
+        </div>
+    </footer>
+
+    <!-- ================= PROJECT DETAIL (opens when a project card is clicked) ================= -->
+    <div class="pd" id="projectDetail" role="dialog" aria-modal="true" aria-labelledby="pdTitle" aria-hidden="true">
+        <div class="pd-backdrop"></div>
+        <button class="pd-close" id="pdClose" aria-label="Close project">✕</button>
+
+        <div class="pd-panel">
+            <div class="pd-gallery">
+                <div class="pd-stage" id="pdStage">
+                    <img id="pdMain" src="" alt="">
+                    <div class="pd-ph">Photo coming soon</div>
+                    <button class="pd-nav pd-prev" id="pdPrev" aria-label="Previous photo">‹</button>
+                    <button class="pd-nav pd-next" id="pdNext" aria-label="Next photo">›</button>
+                    <span class="pd-count" id="pdCount"></span>
+                </div>
+                <div class="pd-thumbs" id="pdThumbs"></div>
+            </div>
+
+            <div class="pd-info">
+                <span class="pd-tag" id="pdTag"></span>
+                <h2 id="pdTitle"></h2>
+                <p class="pd-desc" id="pdDesc"></p>
+                <p class="pd-details" id="pdDetails" hidden></p>
+
+                <div class="pd-scope" id="pdScopeWrap" hidden>
+                    <h4>Scope of work</h4>
+                    <ul id="pdScope"></ul>
+                </div>
+
+                <dl class="pd-facts" id="pdFacts"></dl>
+
+                <div class="pd-actions">
+                    <a class="btn btn-primary" href="contact.html">Request a similar project</a>
+                    <a class="btn btn-outline-dark" id="pdWhatsapp" href="https://wa.me/256745649703" target="_blank" rel="noopener">WhatsApp us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="projects.js"></script>
+</body>
+
+</html>
